@@ -1,0 +1,36 @@
+
+
+<image mode="aspectFit" src="{{tempFilePaths}}"></image>
+
+   
+<view class="data">识别结果</view>
+
+<view class="table" >
+
+    <view class="tr bg-g" >
+       <view class="td bg-c">注册号</view>
+       <view class="td bg-v" >{{list[0].value}}</view>
+    </view>
+     <view class="tr bg-g" >
+       <view class="td bg-c">类型</view>
+       <view class="td bg-v" >{{list[1].value}}</view>
+    </view>
+     <view class="tr bg-g" >
+       <view class="td bg-c">住所</view>
+       <view class="td bg-v" >{{list[2].value}}</view>
+    </view>
+     <view class="tr bg-g" >
+       <view class="td bg-c">投资人</view>
+       <view class="td bg-v" >{{list[3].value}}</view>
+    </view>
+     <view class="tr bg-g" >
+       <view class="td bg-c">成立日期</view>
+       <view class="td bg-v" >{{list[4].value}}</view>
+    </view>
+     <view class="tr bg-g" >
+       <view class="td bg-c">经营范围</view>
+       <view class="td bg-v" >{{list[5].value}}</view>
+    </view>
+   
+</view>
+<button class="upload-img"  bindtap="choose">上传营业执照</button>

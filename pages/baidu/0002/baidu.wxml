@@ -1,0 +1,179 @@
+<!--pages/baidu/0002/baidu.wxml-->
+<image src="{{tempFilePaths}}" mode="aspectFix"></image>
+
+   
+<view class="data">识别结果</view>
+
+<view class="table">
+
+
+<!--分类 -->
+<view class="li" data-index="0" bindtap='changeToggle'>
+<view class="left">
+<text class="text">发票基本信息</text>
+<view class="click"><image src="img/hit.png" ></image></view>
+</view>
+<view class="right"> <text class="iconfont {{selectedFlag[0]?'icon-shangjiantou':'icon-xiala'}}"> </text>
+      </view>
+  </view>
+  <view hidden="{{!selectedFlag[0]}}">
+    
+<view class="tr bg-g" >
+       <view class="td bg-c">发票名称</view>
+       <view class="td bg-v" >{{list.InvoiceTypeOrg}}</view>
+    </view>
+     <view class="tr bg-g" >
+       <view class="td bg-c">发票代码</view>
+       <view class="td bg-v" >{{list.InvoiceCode}}</view>
+    </view>
+     <view class="tr bg-g" >
+       <view class="td bg-c">发票号码</view>
+       <view class="td bg-v" >{{list.InvoiceNum}}</view>
+    </view>
+     <view class="tr bg-g" >
+       <view class="td bg-c">开票日期</view>
+       <view class="td bg-v" >{{list.InvoiceDate}}</view>
+    </view>
+     <view class="tr bg-g" >
+       <view class="td bg-c">收款人</view>
+       <view class="td bg-v" >{{list.Payee}}</view>
+    </view>
+     <view class="tr bg-g" >
+       <view class="td bg-c">复核</view>
+       <view class="td bg-v" >{{list.Checker}}</view>
+    </view>
+    <view class="tr bg-g" >
+       <view class="td bg-c">开票人</view>
+       <view class="td bg-v" >{{list.NoteDrawer}}</view>
+    </view>
+      
+    
+  </view>
+
+  <view class="li" data-index="1" bindtap='changeToggle'>
+    <view class="left">
+    <text class="text">购买方</text>
+<view class="click"><image src="img/hit.png" ></image></view>
+    </view>
+    <view class="right">
+      <text class="iconfont {{selectedFlag[1]?'icon-shangjiantou':'icon-xiala'}}"> </text>
+    </view>
+  </view>
+  <view hidden="{{!selectedFlag[1]}}">
+
+  <view class="tr bg-g" >
+       <view class="td bg-c">名称</view>
+       <view class="td bg-v" >{{list.PurchaserName}}</view>
+    </view>
+    <view class="tr bg-g" >
+       <view class="td bg-c">纳税人识别号</view>
+       <view class="td bg-v" >{{list.PurchaserRegisterNum}}</view>
+    </view>
+    <view class="tr bg-g" >
+       <view class="td bg-c">地址、电话</view>
+       <view class="td bg-v" >{{list.PurchaserAddres}}</view>
+    </view>
+    <view class="tr bg-g" >
+       <view class="td bg-c">开户行及账号</view>
+       <view class="td bg-v" >{{list.PurchaserBank}}</view>
+    </view>
+    
+
+  </view>
+
+
+
+  <view class="li" data-index="2" bindtap='changeToggle'>
+    <view class="left">
+    <text class="text">销售方</text>
+<view class="click"><image src="img/hit.png" ></image></view>
+    </view>
+    <view class="right red">
+      <text class="iconfont {{selectedFlag[2]?'icon-shangjiantou':'icon-xiala'}}"> </text>
+    </view>
+  </view>
+  <view hidden="{{!selectedFlag[2]}}">
+   
+  <view class="tr bg-g" >
+       <view class="td bg-c">名称</view>
+       <view class="td bg-v" >{{list.SellerName}}</view>
+    </view>
+    <view class="tr bg-g" >
+       <view class="td bg-c">纳税人识别号</view>
+       <view class="td bg-v" >{{list.SellerRegisterNum}}</view>
+    </view>
+    <view class="tr bg-g" >
+       <view class="td bg-c">地址、电话</view>
+       <view class="td bg-v" >{{list.SellerAddress}}</view>
+    </view>
+    <view class="tr bg-g" >
+       <view class="td bg-c">开户行及账号</view>
+       <view class="td bg-v" >{{list.SellerBank}}</view>
+    </view>
+   
+
+  </view>
+
+
+
+  <view class="li" data-index="3" bindtap='changeToggle'>
+    <view class="left">
+    <text class="text">货物或应税劳务、服务</text>
+<view class="click"><image src="img/hit.png" ></image></view>
+    </view>
+    <view class="right red">
+      <text class="iconfont {{selectedFlag[3]?'icon-shangjiantou':'icon-xiala'}}"> </text>
+    </view>
+  </view>
+ <view hidden="{{!selectedFlag[3]}}">
+ <view class="tr bg-g" >
+       <view class="td bg-c">名称</view>
+       <view class="td bg-v" >{{list.CommodityName[0].word}}</view>
+    </view>
+
+  </view>
+
+
+   <view class="li" data-index="4" bindtap='changeToggle'>
+    <view class="left">
+    <text class="text">合计</text>
+<view class="click"><image src="img/hit.png" ></image></view>
+    </view>
+    <view class="right red">
+      <text class="iconfont {{selectedFlag[4]?'icon-shangjiantou':'icon-xiala'}}"> </text>
+    </view>
+  </view>
+ <view hidden="{{!selectedFlag[4]}}">
+    
+  <view class="tr bg-g" >
+       <view class="td bg-c">金额合计</view>
+       <view class="td bg-v" >{{list.TotalAmount}}</view>
+    </view>
+    <view class="tr bg-g" >
+       <view class="td bg-c">税额合计</view>
+       <view class="td bg-v" >{{list.TotalTax}}</view>
+    </view>
+    <view class="tr bg-g" >
+       <view class="td bg-c">价税合计</view>
+       <view class="td bg-v" >{{list.AmountInFiguers}}</view>
+    </view>
+</view>
+   
+
+  </view>
+
+
+
+  <button class="upload-img" bindtap="choose">上传图片</button>
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+   

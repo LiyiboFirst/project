@@ -1,0 +1,36 @@
+<!--pages/baidu/baidu.wxml-->
+<image  mode="aspectFit" src="{{tempFilePaths}}" ></image> 
+<view class="data">识别结果</view>
+
+<view class="table">
+    <view class="tr bg-g" >
+       <view class="td bg-c">单位名称</view>
+       <view class="td bg-v" >{{list["单位名称"].words}}</view>
+    </view>
+     <view class="tr bg-g" >
+       <view class="td bg-c">类型</view>
+       <view class="td bg-v" >{{list["类型"].words}}</view>
+    </view>
+     <view class="tr bg-g" >
+       <view class="td bg-c">法人</view>
+       <view class="td bg-v" >{{list["法人"].words}}</view>
+    </view>
+     <view class="tr bg-g" >
+       <view class="td bg-c">地址</view>
+       <view class="td bg-v" >{{list["地址"].words}}</view>
+    </view>
+     <view class="tr bg-g" >
+       <view class="td bg-c">有效期</view>
+       <view class="td bg-v" >{{list["有效期"].words}}</view>
+    </view>
+     <view class="tr bg-g" >
+       <view class="td bg-c">证件编号</view>
+       <view class="td bg-v" >{{list["证件编号"].words}}</view>
+    </view>
+    <view class="tr bg-g" >
+       <view class="td bg-c">社会信用代码</view>
+       <view class="td bg-v" >{{list["社会信用代码"].words}}</view>
+    </view>
+</view>
+<button class="upload-img" bindtap="choose">上传营业执照</button>
+

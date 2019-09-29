@@ -1,0 +1,56 @@
+
+   <view class="v1">
+    <text class="a1">体验中心</text>
+
+    <text class="a2">欢迎来到smartAI体验中心</text>
+
+    <button class="btn" size="mini" bindtap="getParter" >合作咨询</button>
+
+     </view>
+
+     <text id="t1">文字识别</text> 
+ <view class="button-type">
+<button class="type" id="b1" bindtap="getImg1">
+  营业执照
+</button>
+<button class="type" id="b2" bindtap="getImg2">
+  财报
+</button>
+<button class="type" id="b3" bindtap="getImg3">
+  增值税发票
+</button>
+<button class="type" id="b4" bindtap="getImg4">
+  房产证
+</button>
+<button class="type" id="b5" bindtap="getImg5">
+  不动产证
+</button>
+<button class="type" id="b6" bindtap="getImg">
+  境内汇款申请书
+</button>
+<button class="type" id="b7" bindtap="getImg">
+  境外汇款申请书
+</button>
+<button class="type" id="b8" bindtap="getImg">
+  交单
+</button>
+<button class="type" id="b9" bindtap="getImg">
+  身份证
+</button>
+<button class="type" id="b10"  bindtap="getImg">
+  汽车票
+</button>
+<button class="type" id="b11" bindtap="getImg">
+  火车票
+</button>
+<button class="type" id="b12" bindtap="getImg">
+  飞机票
+</button>
+<button class="type" id="b13" bindtap="getImg14">
+  合同文本
+</button>
+<button class="type" id="b14"  bindtap="getImg">
+  其它
+</button>
+
+</view>

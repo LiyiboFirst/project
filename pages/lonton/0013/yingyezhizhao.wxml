@@ -1,8 +1,7 @@
 
 
 <image mode="aspectFit" src="{{tempFilePaths}}"></image>
-
-   
+ 
 <view class="data">识别结果</view>
 
 <view class="table" >

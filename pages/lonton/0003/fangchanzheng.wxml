@@ -9,17 +9,26 @@
 <view class="table" >
 
     <view class="tr bg-g" >
-       <view class="td bg-c">权利人</view>
+       <view class="td bg-c">权证类型</view>
        <view class="td bg-v" >{{list[0].value}}</view>
     </view>
      <view class="tr bg-g" >
-       <view class="td bg-c">使用年限</view>
+       <view class="td bg-c">房产证号</view>
        <view class="td bg-v" >{{list[1].value}}</view>
     </view>
      <view class="tr bg-g" >
-       <view class="td bg-c">权属性质</view>
+       <view class="td bg-c">使用期限</view>
        <view class="td bg-v" >{{list[2].value}}</view>
     </view>
+    <view class="tr bg-g" >
+       <view class="td bg-c">权利类型</view>
+       <view class="td bg-v" >{{list[3].value}}</view>
+    </view>
+    <view class="tr bg-g" >
+       <view class="td bg-c">权利性质</view>
+       <view class="td bg-v" >{{list[4].value}}</view>
+    </view>
+    
   
    
    

@@ -60,3 +60,12 @@ justify-content:space-between;
   margin-bottom: 20rpx;
   background-color: #FFFFFF;
 }
+
+.type-no{
+  width: 45%;
+  height: 80rpx;
+  font-size: 28rpx;
+  text-align: left;
+  margin-bottom: 20rpx;
+  background-color: #DDDDDD;
+}

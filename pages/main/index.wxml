@@ -22,34 +22,34 @@
 <button class="type" id="b4" bindtap="getImg4">
   房产证
 </button>
-<button class="type" id="b5" bindtap="getImg5">
+<button class="type-no" id="b5" bindtap="getImg5">
+  拨账申请书
+</button>
+<button class="type" id="b6" bindtap="getImg6">
   不动产证
 </button>
-<button class="type" id="b6" bindtap="getImg">
-  境内汇款申请书
-</button>
-<button class="type" id="b7" bindtap="getImg">
+<button class="type-no" id="b7" bindtap="getImg7">
   境外汇款申请书
 </button>
-<button class="type" id="b8" bindtap="getImg">
+<button class="type-no" id="b8" bindtap="getImg8">
   交单
 </button>
-<button class="type" id="b9" bindtap="getImg">
+<button class="type-no" id="b9" bindtap="getImg9">
   身份证
 </button>
-<button class="type" id="b10"  bindtap="getImg">
+<button class="type-no" id="b10"  bindtap="getImg10">
   汽车票
 </button>
-<button class="type" id="b11" bindtap="getImg">
+<button class="type-no" id="b11" bindtap="getImg10">
   火车票
 </button>
-<button class="type" id="b12" bindtap="getImg">
+<button class="type-no" id="b12" bindtap="getImg11">
   飞机票
 </button>
-<button class="type" id="b13" bindtap="getImg14">
+<button class="type" id="b13" bindtap="getImg13">
   合同文本
 </button>
-<button class="type" id="b14"  bindtap="getImg">
+<button class="type-no" id="b14"  bindtap="getImg14">
   其它
 </button>
 

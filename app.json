@@ -4,12 +4,12 @@
     "pages/logs/logs",
     "pages/baidu/0002/baidu",
     "pages/baidu/0013/baidu",
-    
     "pages/lonton/0002/fapiao",
     "pages/lonton/0003/fangchanzheng",
     "pages/lonton/0004/budongchanzheng",
     "pages/lonton/0013/yingyezhizhao",
-    "pages/lonton/0014/hetong"
+    "pages/lonton/0014/hetong",
+    "pages/lonton/0001/caibao"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,3 +1,7 @@
 {
-  "usingComponents": {}
+  "usingComponents": {},
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#333",
+  "navigationBarTitleText": "合同",
+  "navigationBarTextStyle": "white"
 }

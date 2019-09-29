@@ -165,15 +165,3 @@
 
 
   <button class="upload-img" bindtap="choose">上传图片</button>
-
- 
-
- 
-
- 
-
- 
-
-
-
-   

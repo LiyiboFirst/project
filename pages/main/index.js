@@ -14,6 +14,18 @@ Page({
        })
      } 
   },
+  getImg2: function (options) {
+
+    if (app.globalData.version == 1) {
+      wx.navigateTo({
+        url: '../lonton/0001/caibao',
+      })
+    } else {
+      wx.navigateTo({
+        url: '../baidu/0013/baidu',
+      })
+    }
+  },
   getImg3: function (options) {
 
     if (app.globalData.version == 1) {
@@ -39,7 +51,7 @@ Page({
       })
     }
   },
-  getImg5: function (options) {
+  getImg6: function (options) {
 
     if (app.globalData.version == 1) {
       wx.navigateTo({
@@ -51,7 +63,7 @@ Page({
       })
     }
   },
-  getImg14: function (options) {
+  getImg13: function (options) {
 
     if (app.globalData.version == 1) {
       wx.navigateTo({

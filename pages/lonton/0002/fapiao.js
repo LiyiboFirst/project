@@ -8,7 +8,6 @@ Page({
 
   },
 
-
   //选择图片
   choose: function () {
     var that = this
@@ -41,8 +40,6 @@ Page({
     //method中设置想要调用的方法名
     var method = 'ocr';
     //wsdlurl中设置需要访问的webService的url地址
-    // var wsdlurl = 'http://smartaiocr:8080/service/api?wsdl';
-
     var wsdlurl = "http://10.8.0.173:9000/service/api?wsdl";
     var targetNamespace = 'http://smartai.webservice.lonton.com/';
     //datacopy中拼接字符串，即http传输中的soap信息
@@ -80,8 +77,6 @@ Page({
         that.setData({
           list: jsond.ocr[0].elements[0]
         })
-        console.log('44444')
-
       },
       fail: function () {
         console.log('fail')

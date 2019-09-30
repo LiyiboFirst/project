@@ -16,45 +16,25 @@
   margin-left: 20rpx;
   font-weight: bolder;
 }
+
+ 
 .table{
-  width: 94%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  width: 94%;
+  border: 2rpx solid #cccccc;
   margin-left: 3%;
-  flex-wrap: wrap;
-  margin-bottom: 150rpx;
-}
- 
-.tr{
-  display: flex;
-  width: 100%;
-  border:2rpx solid #ccc;
-  margin-bottom: 20rpx;
+  margin-bottom: 140rpx;
 }
 
 
 .td{
-  display: flex;
-  width: 100%;
-  margin-left: 10rpx;
-  margin-top: 20rpx;
+  width: 94%;
   flex-wrap: wrap;
-  flex-direction: row;
-  margin-bottom: 20rpx;
+  color:#6666FF;
+  margin-left: 3%;
 }
 
-.bg-c{
-  width: 30%;
-  font-size: 30rpx;
- 
-}
- 
-.bg-v{
- width: 70%;
- font-size: 30rpx;
- color:cornflowerblue;
- 
-}
 
  

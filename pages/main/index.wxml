@@ -13,7 +13,7 @@
 <button class="type" id="b1" bindtap="getImg1">
   营业执照
 </button>
-<button class="type" id="b2" bindtap="getImg2">
+<button class="type-no" id="b2" bindtap="getI">
   财报
 </button>
 <button class="type" id="b3" bindtap="getImg3">

@@ -54,7 +54,7 @@ Page({
     datacopy += '<arg0>';
     datacopy += '<fileData>' + app.globalData.base64Str + '</fileData>';
     datacopy += '<fileSuffix>jpg</fileSuffix>';
-    datacopy += '<ocrType>0002</ocrType>';
+    datacopy += '<ocrType>0001</ocrType>';
     datacopy += '</arg0>';
     datacopy += '</ser:ocr>';
     datacopy += '</soapenv:Body>';

@@ -41,11 +41,13 @@ Page({
     //wsdlurl中设置需要访问的webService的url地址
     // var wsdlurl = 'http://smartaiocr:8080/service/api?wsdl';
 
-    var wsdlurl = "http://10.8.0.173:9000/service/api?wsdl";
-    var targetNamespace = 'http://smartai.webservice.lonton.com/';
+    var wsdlurl = app.globalData.wsdlurl;
+
+    //var wsdlurl ="http://10.8.0.173:8080/service/api?wsdl";
+    var targetNamespace = 'http://webservice.smartaiocr.lonton.com/';
     //datacopy中拼接字符串，即http传输中的soap信息
     var datacopy = '<?xml version="1.0" encoding="utf-8"?>';
-    datacopy += '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://smartai.webservice.lonton.com/">';
+    datacopy += '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://webservice.smartaiocr.lonton.com/">';
     datacopy += '<soapenv:Header/>';
     datacopy += '<soapenv:Body>';
     datacopy += '<ser:ocr>';

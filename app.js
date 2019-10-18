@@ -37,6 +37,7 @@ App({
     userInfo: null,
     base64Str: null,
     //版本:1代表lonton,0代表百度
-    version:1
+    version:1,
+    wsdlurl: 'http://sit.smartai.lonton.com/service/api?wsdl'
   }
 })

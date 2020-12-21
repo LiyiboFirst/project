@@ -1,0 +1,15 @@
+Public Function GetFirstNSheetNames(n As Integer) As String()
+  Dim arr() As String
+  Dim i As Integer
+
+  If n > ActiveWorkbook.Sheets.Count Then
+    n = Worksheets.Count
+  End If
+
+  ReDim arr(n-1)
+  For i = 0 To n-1
+    arr(i) = ActiveWorkbook.Sheets(i+1).Name
+  Next
+
+  GetFirstNSheetNames = arr
+End Function
